@@ -15,7 +15,7 @@
         }
 
         // View Model
-        public function view($view, $data=null) {
+        public function view($view, $data = []) {
             // Check for the view file
             if (file_exists('../app/views/' . $view . '.php')) {
                 // Require View file
