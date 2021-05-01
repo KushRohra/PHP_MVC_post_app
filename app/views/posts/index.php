@@ -6,7 +6,8 @@
         <div class="col-md-6">
             <h1>Posts</h1>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-4"></div>
+        <div class="col-md-2">
             <a href="<?php echo URLROOT; ?>/posts/add" class="btn btn-primary pullright">
                 <i class="fa fa-pencil"></i>Add Posts
             </a>
